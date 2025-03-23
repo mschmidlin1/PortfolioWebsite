@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-theme.css" id="theme-stylesheet">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Data Scientist</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <div class="toggle-track">
+                        <div class="toggle-thumb"></div>
+                    </div>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/michael-schmidlin/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/mschmidlin1" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight">Michael Schmidlin</span></h1>
+                    <h2>Data Scientist & Python Developer</h2>
+                    <p>Transforming data into insights and building intelligent solutions</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image" style="margin-top: 80px;"> <!-- Increased margin to lower the image further -->
+                    <div class="profile-img-container" style="border: 5px solid #800080; border-radius: 50%; overflow: hidden; width: 504px; height: 504px;"> <!-- Decreased size to 504px (10% smaller than 560px) -->
+                        <img src="images/IMG_7008.png" alt="Profile Image" class="profile-img" style="width: 100%; height: auto; border-radius: 50%; display: block;"> <!-- Added display: block to stop bouncing -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm a data scientist with expertise in machine learning, statistical analysis, and data visualization. I enjoy solving complex problems and extracting meaningful insights from data.</p>
+                        <p>With a background in machine vision, I combine technical skills with domain knowledge to deliver impactful solutions in manufacturing. I'm constantly learning and exploring new technologies to enhance my data science toolkit.</p>
+                        <p>I'm passionate about software architecture and enjoy breaking down real world objects into their relative relationships and designing symbolic software to match them.</p>
+                        <p>When I'm not analyzing data or coding, you might find me in the mountains skiing or hiking or at the lake swimming and boating.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3><span class="counter">7</span>+</h3>
+                            <p>Years Industry Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3><span class="counter">5</span></h3>
+                            <p>Non Work Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="resume-btn-container">
+                    <a href="images/resume.pdf" class="btn primary-btn resume-btn" download="Michael-Schmidlin-Resume.pdf">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Senior Data Scientist</h3>
+                            <h4>Corning Incorporated</h4>
+                            <p class="timeline-date">2022 - Present</p>
+                            <p>Led initiatives to improve our machine vision software through image processing algorithms and machine learning.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Measurement Engineer</h3>
+                            <h4>Corning Incorporated</h4>
+                            <p class="timeline-date">2018 - 2022</p>
+                            <p>Qualified and analyzed measurement systems through statistical analysis and design of experiments.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Master's in Data Science</h3>
+                            <h4>Denver University</h4>
+                            <p class="timeline-date">2021 - 2023</p>
+                            <p>Studied statistics, machine learning, data visualization, data structures and algorithms.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor's in Math in Music</h3>
+                            <h4>Potsdam University</h4>
+                            <p class="timeline-date">2014 - 2018</p>
+                            <p>Studied proof based mathematics and music performance on the trumpet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Slide Quest!</h3>
+                            <p>A puzzle game where you slide around in order to escape the cave. Built with Python and Pygame and features algorithms like Breadth-First Search and coding patterns like dependency injection.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>pygame</span>
+                                <span>numpy</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/mschmidlin1/slide-quest" class="btn primary-btn small-btn" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Stock Trading Bot</h3>
+                            <p>A trade bot using python and the Alpaca API to trade stocks. Multiple sequence based models were used to try and predict stock prices as well as using sentiment analysis to try and predict market trends.</p>
+                            <div class="project-tags">
+                                <span>RNN</span>
+                                <span>BERT</span>
+                                <span>alpaca-py</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/mschmidlin1/MSDS_capstone" class="btn primary-btn small-btn" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-content">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                                <h4>Python</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="devicon-csharp-plain"></i></div>
+                                <h4>C#</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <h4>SQL</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="devicon-pytorch-plain"></i></div>
+                                <h4>Pytorch</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                                <h4>Scikit-learn</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="devicon-tensorflow-original"></i></div>
+                                <h4>TensorFlow</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="devicon-dot-net-plain"></i></div>
+                                <h4>.Net</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                                <h4>Matplotlib</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <h4>Git</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-camera"></i></div>
+                                <h4>OpenCV</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>mschmidlin1@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Corning NY, USA</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+1 (607) 438-8197</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Michael Schmidlin. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

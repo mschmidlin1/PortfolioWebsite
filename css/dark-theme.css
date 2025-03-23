@@ -1,0 +1,61 @@
+/* Dark Theme */
+body.dark-mode {
+    --text-color: #e1e1e1;
+    --background-color: #121212;
+    --card-background: #1e1e1e;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .toggle-track {
+    background: #444;
+}
+
+body.dark-mode .toggle-thumb {
+    left: 22px;
+    background: var(--primary-color);
+}
+
+body.dark-mode .profile-img-placeholder {
+    background: #2a2a2a;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+    background: #2a2a2a;
+    border-color: #444;
+    color: var(--text-color);
+}
+
+body.dark-mode .form-group input::placeholder,
+body.dark-mode .form-group textarea::placeholder {
+    color: #aaa;
+}
+
+body.dark-mode .project-tags span {
+    background: rgba(108, 99, 255, 0.2);
+}
+
+body.dark-mode .skill-level {
+    background: #444;
+}
+
+body.dark-mode .hamburger span {
+    background: var(--text-color);
+}
+
+/* Transition effects for theme switching */
+body,
+header,
+.nav-links,
+.theme-toggle,
+.toggle-track,
+.toggle-thumb,
+.social-icons a,
+.project-card,
+.skill-item,
+.contact-item,
+.form-group input,
+.form-group textarea,
+footer {
+    transition: all 0.3s ease;
+} 

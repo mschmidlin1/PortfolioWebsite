@@ -1,7 +1,7 @@
 /* Dark Theme */
 body.dark-mode {
     --text-color: #e1e1e1;
-    --background-color: #121212;
+    --background-color: #2e2e2e;
     --card-background: #1e1e1e;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

@@ -2,10 +2,9 @@
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #4db5ff;
-    --text-color: #333;
-    --background-color: #e5e5e5;
-    --card-background: #f0f0f0;
-    --section-padding: 100px 0;
+    --text-color: #2a2a2a;
+    --background-color: #f5f5f5;
+    --card-background: #ffffff;
     --transition: all 0.3s ease;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;

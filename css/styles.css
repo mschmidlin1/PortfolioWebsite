@@ -5,6 +5,8 @@
     --text-color: #2a2a2a;
     --background-color: #f5f5f5;
     --card-background: #ffffff;
+    --project-card-top: #d5d3d3;
+    --project-icon-color: #6c63ff;
     --transition: all 0.3s ease;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
@@ -456,7 +458,7 @@ nav {
 
 .project-img {
     height: 200px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background: var(--project-card-top);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -464,7 +466,7 @@ nav {
 
 .img-placeholder {
     font-size: 60px;
-    color: white;
+    color: var(--project-icon-color);
 }
 
 .project-content {

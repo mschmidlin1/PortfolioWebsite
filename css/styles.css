@@ -601,62 +601,22 @@ nav {
 
 /* For mobile */
 @media screen and (max-width: 768px) {
-    .contact-info {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Footer */
-footer {
-    background: var(--card-background);
-    padding: 25px 0;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-social {
-    display: flex;
-    gap: 15px;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 992px) {
-    .hero-content h1 {
-        font-size: 3rem;
-    }
-    
-    .hero-content h2 {
-        font-size: 1.5rem;
-    }
-    
-    .about-content,
-    .contact-content {
-        flex-direction: column;
-    }
-    
-    .profile-img-container {
-        width: 300px;
-        height: 300px;
-    }
-    
-    .profile-img-placeholder {
-        width: 280px;
-        height: 280px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .container {
         width: 95%;
     }
     
     .section {
         padding: 70px 0;
+    }
+    
+    .about-stats {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .stat-item {
+        width: 100%;
     }
     
     .nav-links {
@@ -764,5 +724,49 @@ footer {
     
     .btn {
         width: 100%;
+    }
+}
+
+/* Footer */
+footer {
+    background: var(--card-background);
+    padding: 25px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .about-content,
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .profile-img-container {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .profile-img-placeholder {
+        width: 280px;
+        height: 280px;
     }
 } 

@@ -449,6 +449,9 @@ nav {
     overflow: hidden;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .project-card:hover {
@@ -471,6 +474,9 @@ nav {
 
 .project-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -480,13 +486,14 @@ nav {
 }
 
 .project-content p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    flex-grow: 1;
 }
 
 .project-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 15px;
 }
 
@@ -501,6 +508,7 @@ nav {
 .project-links {
     display: flex;
     gap: 10px;
+    margin-top: auto;
 }
 
 .more-projects {

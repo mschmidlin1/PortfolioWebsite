@@ -1,0 +1,11 @@
+.git
+.github
+.vscode
+k8s
+docs
+README.md
+.gitignore
+.dockerignore
+Dockerfile
+.DS_Store
+**/.DS_Store

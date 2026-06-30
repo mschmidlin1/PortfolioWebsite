@@ -29,29 +29,26 @@ A clean, responsive, and modern portfolio website designed for data scientists t
 
 To make this portfolio your own:
 
-1. Replace placeholder text and images with your own content
+1. Replace placeholder text and images with your own content in `src/index.html`
 2. Update social media links with your profiles
-3. Add your resume PDF to the project and update the link in `main.js`
-4. Customize colors in the CSS variables (`:root` in styles.css)
+3. Add your resume PDF and images under `resources/images/`
+4. Customize colors in the CSS variables (`:root` in `src/css/styles.css`)
 5. Add or modify sections as needed
 
 ## Setup
 
-Simply clone this repository and open `index.html` in your browser. No build process or dependencies required.
+Simply clone this repository and open `src/index.html` in your browser (VS Code Live Server works well). No build process or dependencies required.
 
 ```
-git clone https://github.com/yourusername/data-scientist-portfolio.git
-cd data-scientist-portfolio
+git clone https://github.com/mschmidlin1/PortfolioWebsite.git
+cd PortfolioWebsite
 ```
+
+Place profile images and your resume PDF under `resources/images/`.
 
 ## Deployment
 
-This site can be hosted on any static web hosting service like:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Amazon S3
+See [docs/Deployment.md](docs/Deployment.md) for deploying to the homelab stack (GitHub Actions → GHCR → k3s → Cloudflare Tunnel).
 
 ## License
 
